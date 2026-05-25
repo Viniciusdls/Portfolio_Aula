@@ -1,0 +1,51 @@
+/* Estilização geral da página e tipografia */
+body {
+    font-family: sans-serif;
+    background-color: #f4f8fb; /* Azul bem clarinho parecido com a imagem */
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+p {
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+/* Estilo do Rótulo de texto */
+.tabela-layout p{
+    font-family: monospace;
+    margin-top: 1.0px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+.box {
+    width: 140px;
+    height: 140px;
+    background-color: #fff;
+    border: 2px solid #222;
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 0 auto;
+    
+    /* Configurações da imagem de fundo */
+    /* Substitua a URL abaixo pela imagem do seu monstrinho/ícone */
+    background-image: url('download.png'); 
+    background-size: 40px; /* Deixa o ícone pequeno */
+    background-repeat: no-repeat; /* Impede que a imagem se repita para preencher a caixa */
+}
+
+/* === Posições do Background === */
+.bg-left-top      { background-position: left top; }
+.bg-center-top    { background-position: center top; }
+.bg-right-top     { background-position: right top; }
+
+.bg-left-center   { background-position: left center; }
+.bg-center-center { background-position: center center; }
+.bg-right-center  { background-position: right center; }
+
+.bg-left-bottom   { background-position: left bottom; }
+.bg-center-bottom { background-position: center bottom; }
+.bg-right-bottom  { background-position: right bottom; }
